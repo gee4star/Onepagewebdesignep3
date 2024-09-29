@@ -1,0 +1,106 @@
+body {
+    background-image: url(https://t3.ftcdn.net/jpg/06/32/16/70/360_F_632167016_BtM8ywPtfm8SzZRnBelGWRvesw0QNjAM.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: snow;
+}
+h1 {
+    color: aqua;
+    text-shadow: 2px 2px 6px #000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2 {
+    color: aqua;
+    text-shadow: 2px 2px 6px #000000;
+    font-family: 'Times New Roman', Times, serif; 
+}
+.flowers {
+    margin-left: 170px;
+}
+.span1 {
+    margin-left: 120px;
+}
+.circle {
+    border-radius: 50%;
+    transition: box-shadow .3s;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+    background: #fff;
+    border: none;
+    color: #000;
+    text-align: center;
+    font: 22px Arial, sans-serif;
+  }
+  .circle:hover {
+    box-shadow: 0 0 17px aqua;
+  }
+  .circle2 {
+    border-radius: 50%;
+    transition: box-shadow .3s;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+    background: #fff;
+    border: none;
+    color: #000;
+    text-align: center;
+    font: 22px Arial, sans-serif;
+  }
+  .circle2:hover {
+    box-shadow: 0 0 17px aqua;
+  }
+  .circle3 {
+    border-radius: 50%;
+    transition: box-shadow .3s;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+    background: #fff;
+    border: none;
+    
+    color: #000;
+    text-align: center;
+    font: 22px Arial, sans-serif;
+  }
+  .circle3:hover {
+    box-shadow: 0 0 17px aqua;
+  }
+  .circle4 {
+    border-radius: 50%;
+    transition: box-shadow .3s;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+    background: #fff;
+    border: none;
+    color: #000;
+    text-align: center;
+    font: 22px Arial, sans-serif;
+  }
+  .circle4:hover {
+    box-shadow: 0 0 17px aqua;
+  }
+  fieldset {
+    display: block;
+    width: 322px;
+  }
+
+  label {
+    display: block;
+  }
+  input:invalid {
+	border-color: red;
+}
+input,
+input:valid {
+	border-color: #ccc;
+}
+label {
+    display: block;
+    margin-top: 1em;
+  }
+  
+  input:valid {
+    background-color: palegreen;
+  }
