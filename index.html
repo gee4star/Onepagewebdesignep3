@@ -87,11 +87,11 @@
 
 <label for="pin">PIN: (4 digits)</label>
 <input id="pin" name="pin" type="password" pattern="\d{4,4}" required />
-<form action="#">
+<form name="myForm" action="#" onsubmit="return validateForm()">
     <div>
       <label>
         LANDSCAPING BUDGET Between 100 and 60000$
-        <input type="number" min="100" max="60000" required />
+        <input name="budget" type="number" min="100" max="60000" required />
       </label>
     </div>
     <div><input type="submit" value="submit" /></div>

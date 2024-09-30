@@ -66,3 +66,10 @@ let paragraph = document.createElement("p");
 paragraph.innerText="Contact Us: 602-867-5309";
 document.body.appendChild(paragraph);
 
+function validateForm() {
+  let x = document.forms["myForm"]["budget"].value;
+  if (x == "") {
+    alert("Budget must be filled out");
+    return false;
+  }
+}
