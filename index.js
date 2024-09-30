@@ -33,7 +33,7 @@ function myAlert(){
 let pushMeFirst= document.getElementById("btn2");
 pushMeFirst.addEventListener("click", myAlert2);
 function myAlert2(){
-    alert("Welcome!");
+    alert("Welcome to Arizona Desertscapes!");
 }
 // var input = document.getElementById('username');
 // input.oninvalid = function(event) {
